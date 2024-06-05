@@ -1,0 +1,10 @@
+name: sliding_segmented_control
+description: package with customizable sliding segment control
+publish_to: none
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter

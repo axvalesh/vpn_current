@@ -1,0 +1,221 @@
+{
+  "app_title": "SebekVPN",
+  "connect_page": {
+    "title": "SebekVPN",
+    "menu": {
+      "title": "Меню",
+      "account": "Мiй аккаунт",
+      "premium": "Премiум",
+      "settings": "Налаштування",
+      "faq": "Частi запитання",
+      "rate": "Оцiнiть нас"
+    },
+    "offer": {
+      "title": "Оновлення до Pro",
+      "desc": "Розблокуйте високошвидкiсне з'эднання та доступ до кожноi краiни"
+    },
+    "connection": {
+      "connected": "Пiдключено",
+      "connecting": "Пiдключення...",
+      "not_connected": "Не пiдключено"
+    },
+    "stats": {
+      "download": "Завантаження",
+      "upload": "Вiдвантаження",
+      "ping": "Пiнг",
+      "ip": "iP"
+    },
+    "change": "Змiнити"
+  },
+  "notifications_page": {
+    "title": "Сповiщення",
+    "more": "Детальнiше"
+  },
+  "faq_page": {
+    "title": "Частi запитання",
+    "questions": {
+      "secure": {
+        "title": "Чи безпечне моэ з'эднання?",
+        "description": "Так!"
+      },
+      "sebek": {
+        "title": "Хто хороший хлопчик?!",
+        "description": "Себек!"
+      }
+    }
+  },
+  "account_page": {
+    "title": "Мiй аккаунт",
+    "email": "Email",
+    "password": "Пароль",
+    "change": "Змiнити"
+  },
+  "offer_page": {
+    "skip": "пропустити",
+    "title": "Премiум-можливостi",
+    "offers": {
+      "premium": {
+        "title": "Премiум",
+        "description": "Необмеженi VPN-сервери",
+        "per": "в мiсяць"
+      },
+      "personal": {
+        "title": "Персональний",
+        "description": "Використовуйте свiй iдеальний VPN-сервер",
+        "from": "Вiд",
+        "per": "в мiсяць"
+      },
+      "trial": "Розпочати 7-денний безкоштовний пробний перiод"
+    },
+    "footer": "Пiдписка автоматично продовжуэться. Ви можете скасувати пiдписку в будь-який час."
+  },
+  "select_server_page": {
+    "title": "Вибiр сервера",
+    "search_placeholder": "Пошук краiни або мiста...",
+    "section_selector": {
+      "free": "Безкоштовнi",
+      "premium": "Премiум",
+      "personal": "Персональнi"
+    },
+    "sections": {
+      "recommended": "Рекомендованi сервери",
+      "all": "Усi сервери"
+    },
+    "location": "розташування",
+    "locations": "розташувань",
+    "personal": {
+      "blank": {
+        "title": "У вас немаэ персонального сервера",
+        "description": "Ви можете придбати сервер на сторiнцi \"Премiум\"",
+        "action": "Придбати ще"
+      }
+    }
+  },
+  "buy_personal_server_page": {
+    "title": "Персональний сервер",
+    "search": "Пошук краiни...",
+    "per_month": "в мiсяць",
+    "sold": "Продано",
+    "buy": "Придбати"
+  },
+  "sign_in": {
+    "title": "Вхiд",
+    "with": {
+      "apple": "Увiйти за допомогою Apple",
+      "google": "Увiйти за допомогою Google",
+      "email": "Увiйти за допомогою Email"
+    },
+    "email": {
+      "label": "Email",
+      "hint": "Ваш Email",
+      "button": "Увiйти",
+      "error": "Будь ласка, введiть дiйсну адресу електронноi пошти"
+    },
+    "password": {
+      "label": "Пароль",
+      "hint": "Ваш пароль",
+      "error": {
+        "small":"Пароль повинен мiстити принаймнi 8 символiв",
+        "big":"Пароль маэ мiстити менше 32 символiв"
+      },
+      "forgot": {
+        "link": "Забули пароль?",
+        "title": "Забули пароль"
+      },
+      "change": "Змiнити пароль",
+      "new": {
+        "label": "Новий пароль",
+        "hint": "Ваш новий пароль"
+      },
+      "confirm": {
+        "label": "Пiдтвердити пароль",
+        "hint": "Повторiть новий пароль",
+        "error": "Паролi повиннi спiвпадати"
+      }
+    },
+    "save": "Зберегти",
+    "send": "Вiдправити",
+    "terms": {
+      "text": "Новий облiковий запис буде створено автоматично. \nАвторизуючись, ви погоджуэтеся з",
+      "link": "умовами використання"
+    },
+    "confirmation_code": {
+      "title": "Код пiдтвердження",
+      "description1": "Код авторизацii був вiдправлений на",
+      "description2": "Будь ласка, введiть його нижче"
+    }
+  },
+  "settings_page": {
+    "title": "Налаштування",
+    "language_label": "Мова додатка",
+    "notification": "Сповiщення",
+    "connect_when_starts": "Пiдключатися при запуску VPN",
+    "protocols": {
+      "title": "Протокол VPN",
+      "description": "Встановiть використовуваний протокол для пiдключення",
+      "adaptive": "Адаптивний",
+      "tcp": "TCP",
+      "udp": "UDP"
+    },
+    "connection_timeout": {
+      "title": "Тайм-аут пiдключення",
+      "description": "Як довго SebekVPN повинен намагатися перепiдключитися?",
+      "s10": "10 сек",
+      "s30": "30 сек",
+      "m1": "1 хв",
+      "m2": "2 хв",
+      "continuously": "Неперервнi спроби"
+    },
+    "batter_saver": {
+      "title": "Економiя заряду батареi",
+      "description": "Не перепiдключатися, коли пристрiй заблокований i екран неактивний. Налаштування працюэ тiльки в разi використання пароля, Touch iD або Face iD. Щоб уникнути витоку даних, необхiдно ввiмкнути налаштування \"Seamless Tunnel\"."
+    },
+    "seamless_tunnel": {
+      "title": "Seamless Tunnel",
+      "description": "Блокувати iнтернет, коли VPN знаходиться на паузi або в процесi повторного пiдключення"
+    },
+    "ping_connection": {
+      "title": "Пiнг-з'эднання",
+      "description": "Перевiряти поточну швидкiсть iнтернету"
+    }
+  },
+  "language": {
+    "en": {
+      "label": "English",
+      "country": "england",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "pl": {
+      "label": "Polski",
+      "country": "poland",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "de": {
+      "label": "Deutsch",
+      "country": "germany",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "fr": {
+      "label": "Français",
+      "country": "france",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "uk": {
+      "label": "Украiнська",
+      "country": "ukraine",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "ru": {
+      "label": "Русский",
+      "country": "russian",
+      "_comment": "don't change country, it needed to load flag image"
+    }
+  },
+  "error": {
+    "user_not_found": "Облiковий запис iз цiэю електронною адресою не знайдено",
+    "invalid_code": "Недiйсний код пiдтвердження, перевiрте його ще раз i повторiть спробу",
+    "no_permission": "У вас немає дозволу"
+  },
+  "try_again_reconnect": "Повторiть спробу через кiлька секунд",
+  "incorrect_username_or_password": "Неправильне ім'я користувача або пароль"
+}

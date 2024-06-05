@@ -1,0 +1,221 @@
+{
+  "app_title": "SebekVPN",
+  "connect_page": {
+    "title": "SebekVPN",
+    "menu": {
+      "title": "Menu",
+      "account": "Mon compte",
+      "premium": "Premium",
+      "settings": "Paramètres",
+      "faq": "FAQ",
+      "rate": "Évaluez-nous"
+    },
+    "offer": {
+      "title": "Mise à jour vers Pro",
+      "desc": "Débloquez une connexion haute vitesse et accédez à tous les pays"
+    },
+    "connection": {
+      "connected": "Connecté",
+      "connecting": "Connexion en cours...",
+      "not_connected": "Non connecté"
+    },
+    "stats": {
+      "download": "Téléchargement",
+      "upload": "Envoi",
+      "ping": "Ping",
+      "ip": "IP"
+    },
+    "change": "Changer"
+  },
+  "notifications_page": {
+    "title": "Notification",
+    "more": "Plus"
+  },
+  "faq_page": {
+    "title": "FAQ",
+    "questions": {
+      "secure": {
+        "title": "Ma connexion est-elle sécurisée ?",
+        "description": "Oui !"
+      },
+      "sebek": {
+        "title": "Qui est un bon garçon ?!",
+        "description": "Sebek !"
+      }
+    }
+  },
+  "account_page": {
+    "title": "Mon compte",
+    "email": "Email",
+    "password": "Mot de passe",
+    "change": "Changer"
+  },
+  "offer_page": {
+    "skip": "passer",
+    "title": "Fonctionnalités Premium",
+    "offers": {
+      "premium": {
+        "title": "Premium",
+        "description": "Serveurs VPN illimités",
+        "per": "par mois"
+      },
+      "personal": {
+        "title": "Personnel",
+        "description": "Utilisez votre serveur VPN parfait",
+        "from": "À partir de",
+        "per": "par mois"
+      },
+      "trial": "Commencer mon essai gratuit de 7 jours"
+    },
+    "footer": "L'abonnement se renouvelle automatiquement. Vous pouvez annuler votre abonnement à tout moment."
+  },
+  "select_server_page": {
+    "title": "Sélectionner un serveur",
+    "search_placeholder": "Rechercher un pays ou une ville...",
+    "section_selector": {
+      "free": "Gratuit",
+      "premium": "Premium",
+      "personal": "Personnel"
+    },
+    "sections": {
+      "recommended": "Serveurs recommandés",
+      "all": "Tous les serveurs"
+    },
+    "location": "emplacement",
+    "locations": "emplacements",
+    "personal": {
+      "blank": {
+        "title": "Vous n'avez pas de serveur personnel",
+        "description": "Vous pouvez acheter un serveur sur la page Premium",
+        "action": "Acheter plus"
+      }
+    }
+  },
+  "buy_personal_server_page": {
+    "title": "Serveur personnel",
+    "search": "Rechercher un pays...",
+    "per_month": "par mois",
+    "sold": "Vendu",
+    "buy": "Acheter"
+  },
+  "sign_in": {
+    "title": "Se connecter",
+    "with": {
+      "apple": "Se connecter avec Apple",
+      "google": "Se connecter avec Google",
+      "email": "Se connecter avec Email"
+    },
+    "email": {
+      "label": "Email",
+      "hint": "Votre email",
+      "button": "Se connecter",
+      "error": "Veuillez saisir une adresse email valide"
+    },
+    "password": {
+      "label": "Mot de passe",
+      "hint": "Votre mot de passe",
+      "error": {
+        "small":"Le mot de passe doit contenir au moins 8 caractères",
+        "big":"Le mot de passe doit comporter moins de 32 caractères"
+      },
+      "forgot": {
+        "link": "Mot de passe oublié ?",
+        "title": "Mot de passe oublié"
+      },
+      "change": "Changer le mot de passe",
+      "new": {
+        "label": "Nouveau mot de passe",
+        "hint": "Votre nouveau mot de passe"
+      },
+      "confirm": {
+        "label": "Confirmer le mot de passe",
+        "hint": "Répétez le nouveau mot de passe",
+        "error": "Les mots de passe doivent être identiques"
+      }
+    },
+    "save": "Enregistrer",
+    "send": "Envoyer",
+    "terms": {
+      "text": "Un nouveau compte sera créé automatiquement. \nEn vous connectant, vous acceptez les",
+      "link": "conditions générales"
+    },
+    "confirmation_code": {
+      "title": "Code de confirmation",
+      "description1": "Le code d'autorisation a été envoyé à",
+      "description2": "Veuillez le saisir ci-dessous"
+    }
+  },
+  "settings_page": {
+    "title": "Paramètres",
+    "language_label": "Langue de l'application",
+    "notification": "Notification",
+    "connect_when_starts": "Se connecter lorsque le VPN démarre",
+    "protocols": {
+      "title": "Protocole VPN",
+      "description": "Définir le protocole utilisé pour la connexion",
+      "adaptive": "Adaptatif",
+      "tcp": "TCP",
+      "udp": "UDP"
+    },
+    "connection_timeout": {
+      "title": "Délai de connexion",
+      "description": "Combien de temps SebekVPN doit-il essayer de se connecter avant d'abandonner ?",
+      "s10": "10 sec",
+      "s30": "30 sec",
+      "m1": "1 min",
+      "m2": "2 min",
+      "continuously": "Réessayer en continu"
+    },
+    "batter_saver": {
+      "title": "Économiseur de batterie",
+      "description": "Ne pas se reconnecter lorsque l'appareil est verrouillé et l'écran n'est pas actif. Ce paramètre est efficace uniquement si l'appareil est sécurisé par un mot de passe, Touch ID ou Face ID. Pour éviter toute fuite de données, l'option Seamless Tunnel doit être activée."
+    },
+    "seamless_tunnel": {
+      "title": "Tunnel transparent",
+      "description": "Bloquer Internet lorsque le VPN est en pause ou en cours de reconnexion"
+    },
+    "ping_connection": {
+      "title": "Connexion ping",
+      "description": "Vérifier la vitesse Internet actuelle"
+    }
+  },
+  "language": {
+    "en": {
+      "label": "English",
+      "country": "england",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "pl": {
+      "label": "Polski",
+      "country": "poland",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "de": {
+      "label": "Deutsch",
+      "country": "germany",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "fr": {
+      "label": "Français",
+      "country": "france",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "uk": {
+      "label": "Українська",
+      "country": "ukraine",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "ru": {
+      "label": "Русский",
+      "country": "russian",
+      "_comment": "don't change country, it needed to load flag image"
+    }
+  },
+  "error": {
+    "user_not_found": "Un compte avec cet email n'a pas été trouvé",
+    "invalid_code": "Code de confirmation invalide, revérifiez-le et réessayez",
+    "no_permission": "Vous n'avez aucune autorisation"
+  },
+  "try_again_reconnect": "Réessayez dans quelques secondes",
+  "incorrect_username_or_password": "Nom d'utilisateur ou mot de passe incorrect"
+}

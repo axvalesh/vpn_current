@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1099080661698",
+    "project_id": "vpn-sebek",
+    "storage_bucket": "vpn-sebek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099080661698:android:1062ed6ef4b0cdb55f595b",
+        "android_client_info": {
+          "package_name": "com.feelweel.vpn_sebek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099080661698-0m07r63dgsb6ps9kkkn6tlc5trpgmlmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.feelweel.vpn_sebek",
+            "certificate_hash": "2730a55376b7d4e39c880f05d6cacf21090ccb1e"
+          }
+        },
+        {
+          "client_id": "1099080661698-fet7gbhd8lvv4vvh16fmkahd38f7vorp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOuBXGl_IHSDtIgF_ccClbc3P-5kjr70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099080661698-b1svn25p35hdq8eutnle08s5s98qqa7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

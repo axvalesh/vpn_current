@@ -1,0 +1,221 @@
+{
+  "app_title": "SebekVPN",
+  "connect_page": {
+    "title": "SebekVPN",
+    "menu": {
+      "title": "Menu",
+      "account": "My Account",
+      "premium": "Premium",
+      "settings": "Settings",
+      "faq": "FAQ",
+      "rate": "Rate us"
+    },
+    "offer": {
+      "title": "Update to Pro",
+      "desc": "Unlock high speed connection and access to every country"
+    },
+    "connection": {
+      "connected": "Connected",
+      "connecting": "Connecting...",
+      "not_connected": "Not connected"
+    },
+    "stats": {
+      "download": "Download",
+      "upload": "Upload",
+      "ping": "Ping",
+      "ip": "IP"
+    },
+    "change": "Change"
+  },
+  "notifications_page": {
+    "title": "Notification",
+    "more": "More"
+  },
+  "faq_page": {
+    "title": "FAQ",
+    "questions": {
+      "secure": {
+        "title": "Is may connection secure?",
+        "description": "Yes!"
+      },
+      "sebek": {
+        "title": "Who's a good boy?!",
+        "description": "Sebek!"
+      }
+    }
+  },
+  "account_page": {
+    "title": "My account",
+    "email": "Email",
+    "password": "Password",
+    "change": "Change"
+  },
+  "offer_page": {
+    "skip": "skip",
+    "title": "Premium features",
+    "offers": {
+      "premium": {
+        "title": "Premium",
+        "description": "Unlimited VPN servers",
+        "per": "per month"
+      },
+      "personal": {
+        "title": "Personal",
+        "description": "Use your perfect VPN server",
+        "from": "From",
+        "per": "per month"
+      },
+      "trial": "Start my 7-day Free Trial"
+    },
+    "footer": "Subscription is auto-renewable. You can cancel your subscription at any time."
+  },
+  "select_server_page": {
+    "title": "Select Server",
+    "search_placeholder": "Search country or city here...",
+    "section_selector": {
+      "free": "Free",
+      "premium": "Premium",
+      "personal": "Personal"
+    },
+    "sections": {
+      "recommended": "Recommended Servers",
+      "all": "All Servers"
+    },
+    "location": "location",
+    "locations": "locations",
+    "personal": {
+      "blank": {
+        "title": "You don't have a personal server",
+        "description": "You can buy a server on \"Premium\" page",
+        "action": "Buy more"
+      }
+    }
+  },
+  "buy_personal_server_page": {
+    "title": "Personal Server",
+    "search": "Search country or city here...",
+    "per_month": "per month",
+    "sold": "Sold",
+    "buy": "Buy"
+  },
+  "sign_in": {
+    "title": "Sign in",
+    "with": {
+      "apple": "Sign in with Apple",
+      "google": "Sign in with Google",
+      "email": "Sign in with Email"
+    },
+    "email": {
+      "label": "Email",
+      "hint": "Your Email",
+      "button": "Sign in",
+      "error": "Please enter a valid email address"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "Your password",
+      "error": {
+        "small":"Password must have at least 8 characters",
+        "big":"Password must have less than 32 characters"
+      },
+      "forgot": {
+        "link": "Forgot password?",
+        "title": "Forgot password"
+      },
+      "change": "Change password",
+      "new": {
+        "label": "New Password",
+        "hint": "Your New Password"
+      },
+      "confirm": {
+        "label": "Confirm Password",
+        "hint": "Repeat New Password",
+        "error": "Passwords must be identical"
+      }
+    },
+    "save": "Save",
+    "send": "Send",
+    "terms": {
+      "text": "New account will be automatically created. \nBy authorizing, you agree with the",
+      "link": "terms and conditions"
+    },
+    "confirmation_code": {
+      "title": "Confirmation code",
+      "description1": "The authorization code has been sent to",
+      "description2": "Please, enter it in the below"
+    }
+  },
+  "settings_page": {
+    "title": "Settings",
+    "language_label": "App Language",
+    "notification": "Notification",
+    "connect_when_starts": "Connect when VPN starts",
+    "protocols": {
+      "title": "VPN Protocol",
+      "description": "Set the protocol used for connection",
+      "adaptive": "Adaptive",
+      "tcp": "TCP",
+      "udp": "UDP"
+    },
+    "connection_timeout": {
+      "title": "Connection Timeout",
+      "description": "How long should SebekVPN try to connect before giving up?",
+      "s10": "10 sec",
+      "s30": "30 sec",
+      "m1": "1 min",
+      "m2": "2 min",
+      "continuously": "Continuously Retry"
+    },
+    "batter_saver": {
+      "title": "Battery Saver",
+      "description": "Do not reconnect when the device is locked and the screen in not active. The setting is only effective if the device is secured with a password, Touch ID, or Face ID. To avoid date leakage, the Seamless Tunnel setting has to be enabled."
+    },
+    "seamless_tunnel": {
+    "title": "Seamless Tunnel"
+      ,"description": "Block internet while VPN is paused or reconnecting"
+    },
+    "ping_connection": {
+      "title": "Ping connection",
+      "description": "Check current internet speed"
+    }
+  },
+  "language": {
+    "en": {
+      "label": "English",
+      "country": "england",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "pl": {
+      "label":"Polski",
+      "country": "poland",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "de": {
+      "label":"Deutsche",
+      "country": "germany",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "fr": {
+      "label": "Française",
+      "country": "france",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "uk": {
+      "label": "Українська",
+      "country": "ukraine",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "ru": {
+      "label": "Русский",
+      "country": "russian",
+      "_comment": "don't change country, it needed to load flag image"
+    }
+  },
+  "error": {
+    "user_not_found": "An account with this email has not been found",
+    "invalid_code": "Invalid confirmation code, re-check it and try again",
+    "no_permission": "You have no permission"
+  },
+  "try_again_reconnect": "Try again in a few seconds",
+  "incorrect_username_or_password": "Incorrect username or password"
+}

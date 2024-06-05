@@ -1,0 +1,1 @@
+enum VpnProtocol { adaptive, tcp, udp }

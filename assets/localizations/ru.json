@@ -1,0 +1,221 @@
+{
+  "app_title": "SebekVPN",
+  "connect_page": {
+    "title": "SebekVPN",
+    "menu": {
+      "title": "Меню",
+      "account": "Мой аккаунт",
+      "premium": "Премиум",
+      "settings": "Настройки",
+      "faq": "Часто задаваемые вопросы",
+      "rate": "Оцените нас"
+    },
+    "offer": {
+      "title": "Обновление до Pro",
+      "desc": "Разблокируйте высокоскоростное соединение и доступ к каждой стране"
+    },
+    "connection": {
+      "connected": "Подключено",
+      "connecting": "Подключение...",
+      "not_connected": "Не подключено"
+    },
+    "stats": {
+      "download": "Загрузка",
+      "upload": "Отправка",
+      "ping": "Пинг",
+      "ip": "IP"
+    },
+    "change": "Изменить"
+  },
+  "notifications_page": {
+    "title": "Уведомления",
+    "more": "Подробнее"
+  },
+  "faq_page": {
+    "title": "Часто задаваемые вопросы",
+    "questions": {
+      "secure": {
+        "title": "Безопасно ли мое соединение?",
+        "description": "Да!"
+      },
+      "sebek": {
+        "title": "Кто хороший мальчик?!",
+        "description": "Себек!"
+      }
+    }
+  },
+  "account_page": {
+    "title": "Мой аккаунт",
+    "email": "Email",
+    "password": "Пароль",
+    "change": "Изменить"
+  },
+  "offer_page": {
+    "skip": "пропустить",
+    "title": "Премиум-возможности",
+    "offers": {
+      "premium": {
+        "title": "Премиум",
+        "description": "Неограниченные VPN-серверы",
+        "per": "в месяц"
+      },
+      "personal": {
+        "title": "Персональный",
+        "description": "Используйте свой идеальный VPN-сервер",
+        "from": "От",
+        "per": "в месяц"
+      },
+      "trial": "Начать 7-дневный бесплатный пробный период"
+    },
+    "footer": "Подписка автоматически продлевается. Вы можете отменить подписку в любое время."
+  },
+  "select_server_page": {
+    "title": "Выбор сервера",
+    "search_placeholder": "Поиск страны или города...",
+    "section_selector": {
+      "free": "Бесплатные",
+      "premium": "Премиум",
+      "personal": "Персональные"
+    },
+    "sections": {
+      "recommended": "Рекомендуемые серверы",
+      "all": "Все серверы"
+    },
+    "location": "местоположение",
+    "locations": "местоположений",
+    "personal": {
+      "blank": {
+        "title": "У вас нет персонального сервера",
+        "description": "Вы можете купить сервер на странице \"Премиум\" ",
+        "action": "Купить еще"
+      }
+    }
+  },
+  "buy_personal_server_page": {
+    "title": "Персональный сервер",
+    "search": "Поиск страны...",
+    "per_month": "в месяц",
+    "sold": "Продано",
+    "buy": "Купить"
+  },
+  "sign_in": {
+    "title": "Вход",
+    "with": {
+      "apple": "Войти с помощью Apple",
+      "google": "Войти с помощью Google",
+      "email": "Войти с помощью Email"
+    },
+    "email": {
+      "label": "Email",
+      "hint": "Ваш Email",
+      "button": "Войти",
+      "error": "Пожалуйста, введите действительный адрес электронной почты"
+    },
+    "password": {
+      "label": "Пароль",
+      "hint": "Ваш пароль",
+      "error": {
+        "small":"Пароль должен содержать не менее 8 символов",
+        "big":"Пароль должен содержать менее 32 символов"
+      },
+      "forgot": {
+        "link": "Забыли пароль?",
+        "title": "Забыли пароль"
+      },
+      "change": "Изменить пароль",
+      "new": {
+        "label": "Новый пароль",
+        "hint": "Ваш новый пароль"
+      },
+      "confirm": {
+        "label": "Подтвердите пароль",
+        "hint": "Повторите новый пароль",
+        "error": "Пароли должны совпадать"
+      }
+    },
+    "save": "Сохранить",
+    "send": "Отправить",
+    "terms": {
+      "text": "Новая учетная запись будет создана автоматически. \nАвторизуясь, вы соглашаетесь с",
+      "link": "условиями использования"
+    },
+    "confirmation_code": {
+      "title": "Код подтверждения",
+      "description1": "Код авторизации был отправлен на",
+      "description2": "Пожалуйста, введите его ниже"
+    }
+  },
+  "settings_page": {
+    "title": "Настройки",
+    "language_label": "Язык приложения",
+    "notification": "Уведомления",
+    "connect_when_starts": "Подключаться при запуске VPN",
+    "protocols": {
+      "title": "Протокол VPN",
+      "description": "Установите используемый протокол для подключения",
+      "adaptive": "Адаптивный",
+      "tcp": "TCP",
+      "udp": "UDP"
+    },
+    "connection_timeout": {
+      "title": "Таймаут подключения",
+      "description": "Как долго SebekVPN должен пытаться подключиться в случае недоступности VPN сервера?",
+      "s10": "10 сек",
+      "s30": "30 сек",
+      "m1": "1 мин",
+      "m2": "2 мин",
+      "continuously": "Непрерывно повторять попытки"
+    },
+    "batter_saver": {
+      "title": "Экономия заряда батареи",
+      "description": "Не переподключаться, когда устройство заблокировано и экран неактивен. Настройка эффективна только при наличии пароля, Touch ID или Face ID. Чтобы избежать утечки данных, необходимо включить настройку \"Seamless Tunnel\"."
+    },
+    "seamless_tunnel": {
+      "title": "Seamless Tunnel",
+      "description": "Блокировать интернет, когда VPN на паузе или в процессе повторного подключения"
+    },
+    "ping_connection": {
+      "title": "Пинг-соединение",
+      "description": "Проверять текущую скорость интернета"
+    }
+  },
+  "language": {
+    "en": {
+      "label": "English",
+      "country": "england",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "pl": {
+      "label": "Polski",
+      "country": "poland",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "de": {
+      "label": "Deutsch",
+      "country": "germany",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "fr": {
+      "label": "Français",
+      "country": "france",
+      "_comment": "не изменяйте country, это нужно для загрузки изображения флага"
+    },
+    "uk": {
+      "label": "Українська",
+      "country": "ukraine",
+      "_comment": "don't change country, it needed to load flag image"
+    },
+    "ru": {
+      "label": "Русский",
+      "country": "russian",
+      "_comment": "don't change country, it needed to load flag image"
+    }
+  },
+  "error": {
+    "user_not_found": "Аккаунт с этим адресом электронной почты не найден",
+    "invalid_code": "Неверный код подтверждения, проверьте его еще раз и повторите попытку.",
+    "no_permission": "У вас нет разрешения"
+  },
+  "try_again_reconnect": "Повторите попытку через несколько секунд",
+  "incorrect_username_or_password": "Неверное имя пользователя или пароль"
+}
