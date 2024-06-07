@@ -135,9 +135,16 @@ class _OfferPageState extends State<OfferPage> {
                           await SUBSCRIPTION_CUBIT.setSubsctibeTrue();
                            Navigator.popAndPushNamed(context, ConnectPage.route);
                           return;
+                        } 
+                        if(Platform.isAndroid) {
+                          debugPrint('buy free trial premium_free_trial:monthly-free-trial');
+                         
+                          await Purchases.purchaseProduct('premium_free_trial:monthly-free-trial'); 
+                          await SUBSCRIPTION_CUBIT.setSubsctibeTrue();
+                           Navigator.popAndPushNamed(context, ConnectPage.route);
+                          return;
                         }
-                        await SUBSCRIPTION_CUBIT.state.subscriptions[0]
-                            .onPurchase();
+                        debugPrint('not planned case platform');
                       },
                       borderRadius: BorderRadius.circular(24),
                       expanded: true,
