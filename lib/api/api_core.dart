@@ -134,6 +134,15 @@ class APICore {
     return response;
   }
 
+  deleteAccount() async {
+    var response = await sendRequest(
+      endpoint: '/api/user/delete/',
+      method: 'delete',
+      auth: true,
+    );
+    return response;
+  }
+
   changePassword(password) async {
     var response = await sendRequest(
       endpoint: '/api/user/change_password/?password=$password',

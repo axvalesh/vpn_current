@@ -13,7 +13,14 @@ class GoogleSignInAPI {
     final GoogleSignInAuthentication googleAuth = await googleUser!.authentication;
     return googleAuth.idToken;
   }
+
+
+  signOut() async {
+    final googleUser = await _googleSignIn.signOut();
+  }
 }
+
+
 
 loginGoogle() async {
   return await GoogleSignInAPI.login();

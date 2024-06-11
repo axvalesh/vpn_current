@@ -86,6 +86,19 @@ class _RestorePasswordPageState extends State<RestorePasswordPage> {
   }
 
   _submitPassword(BuildContext context) async {
+    final arguments = ModalRoute.of(context)?.settings.arguments as Map;
+    if(arguments != null) {
+      if(arguments['changePassword'] == true) {
+        setState(() => _loading = true);
+
+      var result = await apiHandler.changePassword(_newPassword.text);
+      if (result['status']) {
+        Navigator.pushReplacementNamed(context, AccountPage.route);
+      }
+      return;
+      }
+    }
+
     if (widget.isRecovery) {
       setState(() => _loading = true);
 
